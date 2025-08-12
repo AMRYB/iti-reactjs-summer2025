@@ -1,0 +1,101 @@
+<!DOCTYPE html> 
+<html>
+   <head>
+      <title>Registration</title>
+      <link rel="stylesheet" href="./assets/css/form.css"/>
+   </head>
+   <body>
+      <h1>Registration Form</h1>
+      <form>
+         <table>
+            <tr>
+               <td class="label-cell"><label for="firstName">First Name</label></td>
+               <td><input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required></td>
+            </tr>
+            <tr>
+               <td class="label-cell"><label for="lastName">Last Name</label></td>
+               <td><input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required></td>
+            </tr>
+            <tr>
+               <td class="label-cell"><label for="email">Email</label></td>
+               <td><input type="email" id="email" name="email" placeholder="Enter your email" required></td>
+            </tr>
+            <tr>
+               <td class="label-cell"><label for="password">Password</label></td>
+               <td><input type="password" id="password" name="password" placeholder="Enter your password" required></td>
+            </tr>
+            <tr>
+               <td class="label-cell" rowspan="2">Gender</td>
+               <td>           
+                  <label class="color-special"><input type="radio" name="gender" value="Female"> Female</label>         
+               </td>
+            </tr>
+            <tr>
+               <td>           
+                  <label class="color-special"><input type="radio" name="gender" value="Male"> Male</label>         
+               </td>
+            </tr>
+            <tr>
+               <td class="label-cell"><label for="country">Country</label></td>
+               <td>
+                  <select id="country" name="country" required>
+                     <option value="" selected disabled>Select a Country..</option>
+                     <optgroup label="Africa">
+                        <option value="EG">Egypt</option>
+                        <option value="SD">Sudan</option>
+                        <option value="LY">Libya</option>
+                        <option value="TN">Tunisia</option>
+                        <option value="MA">Morocco</option>
+                     </optgroup>
+                     <optgroup label="Europe">
+                        <option value="IT">Italy</option>
+                        <option value="SE">Sweden</option>
+                        <option value="ES">Spain</option>
+                     </optgroup>
+                     <optgroup label="Asia">
+                        <option value="PS">Palestine</option>
+                        <option value="KR">South Korea</option>
+                        <option value="IN">India</option>
+                     </optgroup>
+                  </select>
+               </td>
+            </tr>
+            <tr>
+               <td class="label-cell"><label for="birthday">Birthday</label></td>
+               <td><input type="date" id="birthday" name="birthday" required></td>
+            </tr>
+            <tr>
+               <td class="label-cell" colspan="2" style="text-align:center;">     
+                  <span class="underline">Interests</span>   
+               </td>
+            </tr>
+            <tr>
+               <td colspan="2" style="text-align:center;">     
+                  <label class="color-special"><input type="checkbox" name="interest" value="Sports"> Sports</label>     
+                  <label class="color-special"><input type="checkbox" name="interest" value="Music"> Music</label>     
+                  <label class="color-special"><input type="checkbox" name="interest" value="Fashion"> Fashion</label>   
+                  <label class="color-special"><input type="checkbox" name="interest" value="Reading"> Reading</label>     
+                  <label class="color-special"><input type="checkbox" name="interest" value="Shopping"> Shopping</label>     
+                  <label class="color-special"><input type="checkbox" name="interest" value="Movies"> Movies</label>   
+               </td>
+            </tr>
+            <tr>
+               <td class="label-cell" colspan="2" style="text-align:center;">     
+                  <label for="bio" class="underline">Bio</label>   
+               </td>
+            </tr>
+            <tr>
+               <td colspan="2">     
+                  <textarea id="bio" name="bio" style="width:100%;"></textarea>   
+               </td>
+            </tr>
+            <tr>
+               <td colspan="2" style="text-align:center;"> 
+                  <button type="button" onclick="location.href='main.html'">Register</button>     
+                  <button>Clear</button>   
+               </td>
+            </tr>
+         </table>
+      </form>
+   </body>
+</html>

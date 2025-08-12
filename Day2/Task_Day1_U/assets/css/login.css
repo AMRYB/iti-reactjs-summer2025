@@ -1,0 +1,56 @@
+body {
+	background-color: #f0f8ff;
+}
+
+.login-box {
+	width: 300px;
+	margin: 100px auto;
+	border: 5px solid #94b2d9;
+	padding: 20px;
+	background: #f0f8ff;
+}
+
+.login-title {
+	background-color: #f0f8ff;
+	width: 40px;
+	color: #943944;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px;
+	margin-top: -40px;
+}
+
+label {
+	display: block;
+	margin: 10px 0 5px;
+	color: #523537;
+	font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+	width: 95%;
+	padding: 8px;
+	border: 1px solid #94b2d9;
+}
+
+.remember {
+	margin: 10px 0;
+	color: #523537;
+	font-weight: bold;
+}
+
+button {
+	display: block;
+	margin: 0 auto;
+	padding: 8px 20px;
+	background-color: #b8bbbf;
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+button:hover {
+	background-color: #78787a;
+}

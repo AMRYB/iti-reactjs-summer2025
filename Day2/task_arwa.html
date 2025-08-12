@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Task</title>
+      <style>
+         body{font-family:system-ui, Arial, sans-serif}
+         table{
+         margin:40px auto;
+         border:3px solid #e03a2b;
+         border-collapse:separate;
+         min-width:640px;
+         text-align:center;
+         }
+         caption{
+         font-size:1.6rem;
+         font-weight:700;
+         margin-bottom:14px;
+         }
+         th, td{
+         border:2px solid #e03a2b;
+         padding:18px 22px;
+         vertical-align:middle;
+         }
+         th.group{
+         font-size:1.2rem;
+         font-weight:700;
+         }
+      </style>
+   </head>
+   <body>
+      <table>
+         <caption>Food Categorization</caption>
+         <tr>
+            <th class="group" colspan="2">vegetables</th>
+            <th class="group" colspan="2">Fruits</th>
+         </tr>
+         <tr>
+            <th>Name</th>
+            <th>Color</th>
+            <th>Name</th>
+            <th>Color</th>
+         </tr>
+         <tr>
+            <td>tomato</td>
+            <td>red</td>
+            <td rowspan="3">apple</td>
+            <td>yellow</td>
+         </tr>
+         <tr>
+            <td>Cucumber</td>
+            <td>dark green</td>
+            <td>green</td>
+         </tr>
+         <tr>
+            <td>carrot</td>
+            <td>orange</td>
+            <td>red</td>
+         </tr>
+      </table>
+   </body>
+</html>

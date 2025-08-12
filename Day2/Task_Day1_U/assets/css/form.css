@@ -1,0 +1,48 @@
+body {
+	background-color: #f0f8ff;
+}
+
+h1 {
+	text-align: center;
+	color: #000;
+	text-decoration: underline;
+}
+
+table {
+	border-collapse: collapse;
+	margin: auto;
+	width: 50%;
+}
+
+td {
+	border: 5px solid #dbdbdb;
+	padding: 8px;
+	vertical-align: top;
+}
+
+.label-cell {
+	color: #53072b;
+	font-weight: bold;
+	width: 30%;
+}
+
+input,
+select,
+textarea {
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.actions {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.color-special {
+	color: #53072b;
+}
