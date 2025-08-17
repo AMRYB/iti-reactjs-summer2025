@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Task</title>
+   </head>
+   <body>
+      <script>
+         let total = 0;
+         
+         while (true) {
+           let input = prompt("enter a number");
+         
+         
+           let num = Number(input);
+         
+           if (num === 0) {
+             break;
+           }
+         
+           total += num;
+         
+           if (total > 100) {
+             break;
+           }
+         }
+         
+         console.log("total" + total);
+      </script>
+   </body>
+</html>

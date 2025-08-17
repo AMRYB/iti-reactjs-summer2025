@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Task</title>
+   </head>
+   <body>
+      <script>
+         let start = prompt("Enter start value:");
+         let end = prompt("Enter end value:");
+         let totalSum = 0;
+         
+         console.log("Number multiple of 3:");
+         for (let i = start; i <= end; i++) {
+             if (i % 3 === 0) {
+                 console.log(i);
+                 totalSum += i;
+             }
+         }
+         
+         console.log("Number multiple of 5:");
+         for (let i = start; i <= end; i++) {
+             if (i % 5 === 0) {
+                 console.log(i);
+                 totalSum += i;
+             }
+         }
+         
+         console.log("total " + totalSum);
+      </script>
+   </body>
+</html>
