@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Task</title>
+   </head>
+   <body>
+      <script>
+         function finder(str) {
+             let words = str.split(" ");
+             let largestWord = words[0];
+         
+             for (let i = 1; i < words.length; i++) {
+                 if (words[i].length > largestWord.length) {
+                     largestWord = words[i];
+                 }
+             }
+         
+             return largestWord;
+         }
+         
+         let input = prompt("enter a string");
+         let result = finder(input);
+         alert("the largest is: " + result);
+      </script>
+   </body>
+</html>

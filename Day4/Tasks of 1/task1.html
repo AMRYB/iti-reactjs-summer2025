@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Task</title>
+   </head>
+   <body>
+      <script>
+         let input = prompt("enter a string");
+         let finder = prompt("enter the character");
+         let ask = prompt("do you want to check lower?");
+         
+         if (ask.toLowerCase() === "no") {
+             input = input.toLowerCase();
+             finder = finder.toLowerCase();
+         }
+         
+         let count = 0;
+         for (let i = 0; i < input.length; i++) {
+             if (input[i] === finder) {
+                 count++;
+             }
+         }
+         
+         console.log("my character is " + finder + " and it appears " + count + " times");
+      </script>
+   </body>
+</html>

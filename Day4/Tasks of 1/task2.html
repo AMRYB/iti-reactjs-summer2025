@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Task</title>
+   </head>
+   <body>
+      <script>
+         let input = prompt("enter a string");
+         let caseSensitive = confirm("do you want to consider case sensitivity?");
+         
+         if (!caseSensitive) {
+             input = input.toLowerCase();
+         }
+         
+         let reversedString = input.split("").reverse().join("");
+         
+         if (input === reversedString) {
+             alert("the string is a palindrome.");
+         } else {
+             alert("the string is not a palindrome.");
+         }
+      </script>
+   </body>
+</html>
