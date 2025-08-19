@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Task</title>
+   </head>
+   <body>
+      <button onclick="openPopup()">start</button>
+      <script>
+         function openPopup() {
+             const w = 150,
+                 h = 150;
+             let popup = window.open("", "", `width=${w},height=${h},left=100,top=100,resizable=no`);
+             popup.document.write("");
+         
+             try {
+                 popup.resizeTo(w, h);
+             } catch (e) {}
+         
+             let x = 100,
+                 y = 100;
+             let dx = 4,
+                 dy = 5;
+         
+             const tick = () => {
+                 if (popup.closed) return;
+         
+                 const maxX = screen.availWidth - w;
+                 const maxY = screen.availHeight - h;
+         
+                 x += dx;
+                 y += dy;
+         
+                 if (x <= 0) {
+                     x = 0;
+                     dx = Math.abs(dx);
+                 } else if (x >= maxX) {
+                     x = maxX;
+                     dx = -Math.abs(dx);
+                 }
+         
+                 if (y <= 0) {
+                     y = 0;
+                     dy = Math.abs(dy);
+                 } else if (y >= maxY) {
+                     y = maxY;
+                     dy = -Math.abs(dy);
+                 }
+         
+                 try {
+                     popup.moveTo(x, y);
+                     popup.resizeTo(w, h);
+                 } catch (e) {}
+             };
+         
+             setInterval(tick, 30);
+         }
+      </script>
+   </body>
+</html>

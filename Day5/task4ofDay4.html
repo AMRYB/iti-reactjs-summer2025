@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Task</title>
+   </head>
+   <body>
+      <script>
+         function info() {
+             let name;
+             do {
+                 name = prompt("enter your name");
+             } while (!/^[A-Za-z\s]+$/.test(name));
+         
+             let phone;
+             do {
+                 phone = prompt("enter your phone");
+             } while (!/^\d{8}$/.test(phone));
+         
+             let mobile;
+             do {
+                 mobile = prompt("enter your mobile");
+             } while (!/^(010|011|012)\d{8}$/.test(mobile));
+         
+             let email;
+             do {
+                 email = prompt("enter your email:");
+             } while (!/^[\w.-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/.test(email));
+         
+             let color;
+             do {
+                 color = prompt("choose color: red green blue").toLowerCase();
+             } while (!["red", "green", "blue"].includes(color));
+         
+             let today = new Date().toLocaleDateString();
+         
+             document.write(`<h2 style="color:${color};">welcome ${name}<br>
+         phone: 02${phone}<br>
+         mobile: ${mobile}<br>
+         email: ${email}<br>
+         date: ${today}</h2>`);
+         }
+         
+         info();
+      </script>
+   </body>
+</html>

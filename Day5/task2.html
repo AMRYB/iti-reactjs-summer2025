@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Task</title>
+   </head>
+   <body>
+      <button onclick="openPopup()">start</button>
+      <script>
+         function openPopup() {
+           const w = 400, h = 200;
+           let popup = window.open("", "", `width=${w},height=${h},left=200,top=200,resizable=no`);
+         
+           const msg = "my name is amr";
+           let i = 0;
+         
+           popup.document.write(`
+             <html>
+             <head>
+               <title>test</title>
+             </head>
+             <body>
+               <div id="text"></div>
+             </body>
+             </html>
+           `);
+         
+           const textDiv = popup.document.getElementById("text");
+         
+           function typeChar() {
+             if (popup.closed) return;
+             if (i < msg.length) {
+               textDiv.textContent += msg.charAt(i);
+               i++;
+               setTimeout(typeChar, 200);
+             }
+           }
+         
+           typeChar();
+         }
+      </script>
+   </body>
+</html>
