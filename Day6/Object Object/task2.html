@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Task</title>
+   </head>
+   <body>
+      <p id="output"></p>
+      <script>
+         function dispVal(obj, key) {
+         
+         if (!(key in obj)) {
+         return `key ${key} not found`;
+         }
+         
+         if (key === "age") {
+         return `${obj[key]} years old`;
+         }
+         
+         return obj[key];
+         }
+         
+         const person = {
+         nm: "ali",
+         age: 10,
+         test: 100
+         };
+
+         document.getElementById("output").textContent = dispVal(person, "test");
+      </script>
+   </body>
+</html>

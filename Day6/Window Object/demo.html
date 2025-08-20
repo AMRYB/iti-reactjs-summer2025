@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Main</title>
+   </head>
+   <body style="background-color: #cab1b2;">
+      <!-- DHeading -->
+      <h1><u>Header 1</u></h1>
+      <h2>Header 2</h2>
+      <h3>Header 3</h3>
+      <hr>
+      <!-- List -->
+      <h4><u>Content</u></h4>
+      <ul>
+         <li>Frist item</li>
+         <li>
+            Second item
+            <ol type="I">
+               <li>Frist item</li>
+               <li>Second item</li>
+               <li>Third item</li>
+               <li>Fourth item</li>
+            </ol>
+         </li>
+         <li>Third item</li>
+         <li>Fourth item</li>
+      </ul>
+      <hr>
+      <!-- Testing -->
+      <ol>
+         <li><b>Bold</b></li>
+         <li><u>Underline</u></li>
+         <li><i>Italic</i></li>
+         <li>
+            <span style="font-size: 12px;">My</span>
+            <span style="font-size: 18px;">name is</span>
+            <span style="font-size: 20px;">Amr Yasser</span>
+         </li>
+         <li><span style="font-family: 'Courier New';">Nice Try</li>
+         <li><span style="color: red;">Different colors</span></li>
+      </ol>
+      <hr>
+      <div style="text-align: center;">
+         <img src="./assets/img/welcome.gif" alt="Welcome">
+      </div>
+      <div style="display: flex; justify-content: space-between; margin-top: 20px;">
+         <p><a href="#top">Top</a></p>
+         <p><a href="contact _us.html">Next</a></p>
+      </div>
+      <!--today-->
+      <script>
+         let scroll = null;
+         
+         function autoScroll() {
+           window.scrollBy(0, 1);
+         
+           if (window.innerHeight + window.scrollY >= document.body.scrollHeight) {
+             clearInterval(scroll);
+             window.close();
+           }
+         }
+         
+         function startAutoScroll() {
+           if (!scroll) {
+             scroll = setInterval(autoScroll, 10);
+           }
+         }
+         
+         function stopAutoScroll() {
+           clearInterval(scroll);
+           scroll = null;
+         }
+         
+         window.onload = startAutoScroll;
+         
+         window.startAutoScroll = startAutoScroll;
+         window.stopAutoScroll = stopAutoScroll;
+      </script>
+   </body>
+</html>

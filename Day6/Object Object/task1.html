@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Task</title>
+   </head>
+   <body>
+      <p id="output"></p>
+      <script>
+         function showAddr(addrObj) {
+           const today = new Date();
+           const day = today.getDate().toString().padStart(2, "0");
+           const month = (today.getMonth() + 1).toString().padStart(2, "0");
+           const year = today.getFullYear();
+         
+           return `${addrObj.buildingNum} ${addrObj.street}, ${addrObj.city} city registered in ${day}/${month}/${year}`;
+         }
+         
+         const addrObj = { street: "abc st", buildingNum: 15, city: " xyz" };
+         
+         document.getElementById("output").textContent = showAddr(addrObj);
+      </script>
+   </body>
+</html>
