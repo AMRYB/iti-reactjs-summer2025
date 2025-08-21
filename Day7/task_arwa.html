@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Task</title>
+   </head>
+   <body>
+      <select name="gender" id="gender">
+         <option value="male">male</option>
+         <option value="female">female</option>
+      </select>
+      <input type="button" value="select" id="select">
+      <p id="output"></p>
+      <script>
+         function output() {
+             let gnd = document.getElementById("gender").value;
+             document.getElementById("output").innerText = gnd;
+         }
+         document.getElementById("select").onclick = output;
+      </script>
+   </body>
+</html>
