@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>task</title>
+   </head>
+   <body>
+      <script>
+         function minMax(...numbers) {
+             return numbers.length === 0? [0,0] : [Math.min(...numbers), Math.max(...numbers)];
+         }
+         
+         let [min, max] = minMax(1, 2, 3, 4, );
+         console.log("Minimum value:", min);
+         console.log("Maximum value:", max);
+      </script>
+   </body>
+</html>
