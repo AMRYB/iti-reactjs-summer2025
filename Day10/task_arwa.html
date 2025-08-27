@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Task</title>
+   </head>
+   <body>
+      <script>
+         class Vehicle {
+           constructor({ speed = 0, color = 'white' } = {}) {
+             this.speed = Number(speed) || 0
+             this.color = color
+             this.running = false
+             this.direction = 0
+           }
+         
+           start() {
+             if (this.running) return false
+             this.running = true
+             return true
+           }
+         
+           stop() {
+             if (!this.running) return false
+             this.running = false
+             this.speed = 0
+             return true
+           }
+         
+           turnLeft(deg = 90) {
+             this.direction = (this.direction - deg + 360) % 360
+           }
+         
+           turnRight(deg = 90) {
+             this.direction = (this.direction + deg) % 360
+           }
+         
+           goForward(speed = this.speed, accel = 0) {
+             if (!this.running) this.start()
+             this.speed = Math.max(0, Number(speed) + Number(accel))
+           }
+         
+           goBackward(speed = this.speed, accel = 0) {
+             if (!this.running) this.start()
+             this.speed = -Math.max(0, Math.abs(Number(speed) + Number(accel)))
+           }
+         }
+         
+         class Bicycle extends Vehicle {
+           ringBell() {
+             return 'Ring ring'
+           }
+         }
+         
+         class MotorVehicle extends Vehicle {
+           constructor({ sizeOfEngine = 0, licencePlate = '', ...rest } = {}) {
+             super(rest)
+             this.sizeOfEngine = Number(sizeOfEngine) || 0
+             this.licencePlate = String(licencePlate)
+           }
+         
+           getSizeOfEngine() {
+             return this.sizeOfEngine
+           }
+         
+           getLicensePlate() {
+             return this.licencePlate
+           }
+         }
+         
+         class Car extends MotorVehicle {
+           constructor({ numOfDoors = 4, numWheels = 4, Weight = 0, ...rest } = {}) {
+             super(rest)
+             this.numOfDoors = Number(numOfDoors) || 0
+             this.numWheels = Number(numWheels) || 0
+             this.Weight = Number(Weight) || 0
+             this.airConOn = false
+           }
+         
+           switchOnAirCon(on = true) {
+             this.airConOn = Boolean(on)
+             return this.airConOn
+           }
+         
+           getNumOfDoors() {
+             return this.numOfDoors
+           }
+         }
+         
+         class DumpTruck extends MotorVehicle {
+           constructor({ loadCapacity = 0, numWheels = 6, wight = 0, ...rest } = {}) {
+             super(rest)
+             this.loadCapacity = Number(loadCapacity) || 0
+             this.numWheels = Number(numWheels) || 0
+             this.wight = Number(wight) || 0
+             this.bedRaised = false
+           }
+         
+           raiseLoad() {
+             this.bedRaised = true
+             return 'Bed raised'
+           }
+         
+           lowerLoad() {
+             this.bedRaised = false
+             return 'Bed lowered'
+           }
+         }  
+      </script>
+   </body>
+</html>

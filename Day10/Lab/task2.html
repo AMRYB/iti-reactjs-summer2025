@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>task</title>
+   </head>
+   <body>
+      <script>
+         const student = {
+           name: "amr",
+           id: 19,
+           dept: "rse",
+
+           display() {
+             console.log(this.name);
+           },
+
+           [Symbol.iterator]() {
+             const keys = Object.keys(this).filter(k => typeof this[k] !== "function");
+             let i = 0;
+             return {
+               next: () => {
+                 if (i < keys.length) {
+                   const key = keys[i++];
+                   return { value: this[key], done: false };
+                 }
+                 return { value: undefined, done: true };
+               }
+             };
+           }
+         };
+         
+         for (const value of student) {
+           console.log(value);
+         }       
+      </script>
+   </body>
+</html>

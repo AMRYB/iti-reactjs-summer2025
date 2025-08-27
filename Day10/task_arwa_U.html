@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Task</title>
+   </head>
+   <body>
+      <script>
+         class Vehicle {
+           constructor(speed, color) {
+             this.speed = speed;
+             this.color = color;
+           }
+         
+           turnLeft() {
+             console.log("Vehicle is turning left");
+           }
+         
+           turnRight() {
+             console.log("Vehicle is turning right");
+           }
+         
+           start() {
+             console.log("Vehicle started");
+             return true;
+           }
+         
+           stop() {
+             console.log("Vehicle stopped");
+             return true;
+           }
+         
+           goBackward(speed, accel) {
+             console.log(`Vehicle going backward with speed ${speed} and acceleration ${accel}`);
+           }
+         
+           goForward(speed, accel) {
+             console.log(`Vehicle going forward with speed ${speed} and acceleration ${accel}`);
+           }
+         }
+         
+         class Bicycle extends Vehicle {
+           ringBell() {
+             console.log("Bicycle bell is ringing!");
+           }
+         }
+         
+         class MotorVehicle extends Vehicle {
+           constructor(speed, color, sizeOfEngine, licencePlate) {
+             super(speed, color);
+             this.sizeOfEngine = sizeOfEngine;
+             this.licencePlate = licencePlate;
+           }
+         
+           getSizeOfEngine() {
+             console.log(`Engine size: ${this.sizeOfEngine}`);
+           }
+         
+           getLicensePlate() {
+             console.log(`License plate: ${this.licencePlate}`);
+           }
+         }
+         
+         class Car extends MotorVehicle {
+           constructor(speed, color, sizeOfEngine, licencePlate, numOfDoors, numWheels, weight) {
+             super(speed, color, sizeOfEngine, licencePlate);
+             this.numOfDoors = numOfDoors;
+             this.numWheels = numWheels;
+             this.weight = weight;
+           }
+         
+           switchOnAirCon() {
+             console.log("Car air conditioning switched on");
+           }
+         
+           getNumOfDoors() {
+             console.log(`Number of doors: ${this.numOfDoors}`);
+           }
+         }
+         
+         class DumpTruck extends MotorVehicle {
+           constructor(speed, color, sizeOfEngine, licencePlate, loadCapacity, numWheels, weight) {
+             super(speed, color, sizeOfEngine, licencePlate);
+             this.loadCapacity = loadCapacity;
+             this.numWheels = numWheels;
+             this.weight = weight;
+           }
+         
+           lowerLoad() {
+             console.log("DumpTruck is lowering its load");
+           }
+         
+           raiseLoad() {
+             console.log("DumpTruck is raising its load");
+           }
+         }
+      </script>
+   </body>
+</html>

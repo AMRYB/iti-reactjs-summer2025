@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>task</title>
+   </head>
+   <body>
+      <script>
+         function generateCourseInfo(info) {
+         const allowed = ["courseName", "courseDuration", "courseOwner"];
+         
+         for (const key in info) {
+             if (!allowed.includes(key)) {
+                 console.log("properties are not allowed");
+                 return;
+             }
+         }
+         
+         if (!info.courseName || !info.courseDuration || !info.courseOwner) {
+             console.log("something is missing");
+             return;
+         }
+         
+         console.log(`Course Name: ${info.courseName}`);
+         console.log(`Duration: ${info.courseDuration}`);
+         console.log(`Author: ${info.courseOwner}`);
+         }
+         
+         generateCourseInfo({
+         courseName: "JavaScript Basics",
+         courseDuration: "5 days",
+         courseOwner: "Kareem"
+         });
+         
+         console.log("-".repeat(10));
+         
+         generateCourseInfo({
+         courseName: "React JS",
+         courseDuration: "7 days",
+         courseOwner: "Arwa",
+         Grade: 90
+         }); 
+      </script>
+   </body>
+</html>
