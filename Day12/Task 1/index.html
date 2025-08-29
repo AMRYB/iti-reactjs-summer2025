@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>task</title>
+      <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+      <script>
+         var localstorage = {
+         
+           setItem: function(key, value) {
+             document.cookie = key + "=" + value + "; path=/";
+           },
+         
+           getItem: function(key) {
+             let cookies = document.cookie.split("; ");
+             for (let i = 0; i < cookies.length; i++) {
+               let parts = cookies[i].split("=");
+               if (parts[0] === key) {
+                 return parts[1];
+               }
+             }
+             return null;
+           },
+         
+           removeItem: function(key) {
+             document.cookie = key + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+           },
+         
+           clear: function() {
+             let cookies = document.cookie.split("; ");
+             for (let i = 0; i < cookies.length; i++) {
+               let parts = cookies[i].split("=");
+               document.cookie = parts[0] + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+             }
+           },
+         
+           key: function(n) {
+             let cookies = document.cookie.split("; ");
+             if (n >= 0 && n < cookies.length) {
+               return cookies[n].split("=")[0];
+             }
+             return null;
+           }
+         };
+         
+         localstorage.setItem("name", "amr");
+         localstorage.setItem("age", "19");
+         localstorage.setItem("city", "giza");   
+      </script>
+   </body>
+</html>
