@@ -16,7 +16,7 @@
 ---
 
 ### Day 2
-- 🎥 [Lecture Link](#)  
+- 🎥 [Lecture Link](https://drive.google.com/file/d/1aVsfFVl_FWVSPOczqZyaZ-rzvIEPtyB8/view?usp=drive_link)  
 - 📚 [Materials](https://drive.google.com/drive/folders/1uRCUg6fo6bdKtI4iLF1PkXVBOm7HSgE-?usp=drive_link)  
 - 💻 [Solutions – Day2](./Day2)
 
@@ -59,5 +59,75 @@
 
 ### Day 8
 - 🎥 [Lecture Link](https://drive.google.com/file/d/1-pTyn0Pkdd8zREckEaOGEZQ5PdrN64zZ/view?usp=drive_link)  
-- 📚 [Materials](https://drive.google.com/drive/folders/1DidloWmbABWo7DbZtRFXlWC8zYqfJuCs?usp=drive_link)   
-- 💻 [Solutions – Day8](./Day8) 
+- 📚 [Materials](https://drive.google.com/drive/folders/1DidloWmbABWo7DbZtRFXlWC8zYqfJuCs?usp=drive_link)  
+- 💻 [Solutions – Day8](./Day8)
+
+---
+
+### Day 9
+- 🎥 [Lecture Link](https://drive.google.com/file/d/1K1Xx1VFi1fDTZu_r4O0WAceKzhS5bz44/view?usp=drive_link)  
+- 📚 [Materials](https://drive.google.com/drive/folders/1T_zdLK85KONkm2a69rK_iy8eW3GO91lp?usp=drive_link)  
+- 💻 [Solutions – Day9](./Day9)
+
+---
+
+### Day 9 Extra
+- 🎥 [Lecture Link](https://drive.google.com/file/d/1aHSLUPhhkK3v62Kd4_L1qXzCp4kJ2BHl/view?usp=drive_link)  
+- 📚 [Materials](https://drive.google.com/drive/folders/1DiLzDMMWJzWEXOL30eqQTwyJ27utMRA9?usp=drive_link)  
+- 💻 [Solutions – Day9](./Day9)
+
+---
+
+### Day 10
+- 🎥 [Lecture Link Part1](https://drive.google.com/file/d/1cbuWVR6MEFzCMtBlnxEJe2vnWtPonyBY/view?usp=drive_link)  
+- 🎥 [Lecture Link Part2](https://drive.google.com/file/d/1Nftu_BL0vpZ5AKeqUHlZq1PyF-AZsi4e/view?usp=drive_link)  
+- 📚 [Materials](https://drive.google.com/drive/folders/1FW07430KXSavLQUmmV73jam1Km4VF8Nw?usp=drive_link)  
+- 💻 [Solutions – Day10](./Day10)
+
+---
+
+### Day 11
+- 🎥 [Lecture Link](https://drive.google.com/file/d/1Zjc-5dkk26kDtwcKvCmDrC2kJGJQ-rtU/view?usp=drive_link)  
+- 📚 [Materials](https://drive.google.com/drive/folders/13eDCWXnpsVa5UXk27lvaSqg4Fgn9gUL-?usp=drive_link)  
+- 💻 [Solutions – Day11](./Day11/HTML5%20&%20CSS3%20Tasks/)
+
+---
+
+### Day 11 Extra
+- 📚 [Materials](https://drive.google.com/drive/folders/11xlhwDJoLXE8tpmkW_jg9Cd6hPLsXcsy?usp=drive_link)  
+- 💻 [Solutions – Day11](./Day11/ES%20Tasks/)
+
+---
+
+### Day 12
+- 🎥 [Lecture Link](https://drive.google.com/file/d/116Peu_NXe65zjlKADfbYCHaZ3JYIO7e3/view?usp=drive_link)  
+- 📚 [Materials](https://drive.google.com/drive/folders/1Eg0prbbm-fYsouxRJ1fEfOoTPKkCnJ59?usp=drive_link)  
+- 💻 [Solutions – Day12](./Day12)
+
+---
+
+### Day 13
+- 🎥 [Lecture Link](https://drive.google.com/file/d/1rO1ieRxvxFZnYYM97e6tSsFVCpQyirMI/view?usp=drive_link)
+- 📚 [Materials](https://drive.google.com/drive/folders/1HUEh2pGbbEKMecxNFNkqccjpn_lejl0L?usp=drive_link)  
+- 💻 [Solutions – Day13](./Day13)
+
+---
+
+### Day 14
+- 🎥 [Lecture Link](https://drive.google.com/file/d/1kVaaZBmeKSQXXlo8O6mwWKM6sP9uUlcY/view?usp=drive_link)
+- 📚 [Materials](https://drive.google.com/drive/folders/1CCXRnyc9bR_2ReACHOypk1nYTtlI7j_b?usp=drive_link)  
+- 💻 [Solutions – Day14](./Day14)
+
+---
+
+### Day 14 Extra
+- 🎥 [Lecture Link](https://drive.google.com/file/d/1xGE2lr51n_W6VaNFOMslsYAtZQuSyvAA/view?usp=drive_link)
+- 📚 [Materials](https://drive.google.com/drive/folders/1nsNUBYBH9snEj_0qeUpzwZjEg7EWtJM0?usp=drive_link)  
+- 💻 [Solutions – Day14](./Day14)
+
+---
+
+### Day 15 
+- 💻 [Solutions – Day15](./Day15)
+
+---
