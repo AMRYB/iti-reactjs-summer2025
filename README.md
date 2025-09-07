@@ -131,3 +131,19 @@
 - 💻 [Solutions – Day15](./Day15)
 
 ---
+
+### Day 16
+- 🎥 [Lecture Link Part1](https://drive.google.com/file/d/132hgjBtjmGiFVHpygkF2d3Vi9Eb1gpYH/view?usp=drive_link)  
+- 🎥 [Lecture Link Part2](https://drive.google.com/file/d/1TbY_OeefV2yDB470j1cXXdX7hUFgOWCw/view?usp=drive_link)  
+- 📚 [Materials](https://drive.google.com/drive/folders/1RkTL_L4Mr8tQf16QK3bX0onOLghZbfDO?usp=drive_link)  
+- 💻 [Solutions – Day16](./Day16)
+
+---
+
+### Day 17
+- 🎥 [Lecture Link Part1](https://drive.google.com/file/d/1jnqGxWu3f6rw14LRFCn3WlLaXlkvFG5w/view?usp=drive_link)  
+- 🎥 [Lecture Link Part2](https://drive.google.com/file/d/1_A8-t7xTKl_LhsaRAjhGJL9Qq56hx7AT/view?usp=drive_link)  
+- 📚 [Materials](https://drive.google.com/drive/folders/1uEtF8vskw6qpJeHyZkjDm7rP37fEL0jF?usp=drive_link)  
+- 💻 [Solutions – Day17](./Day17)
+
+---
