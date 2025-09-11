@@ -147,3 +147,32 @@
 - 💻 [Solutions – Day17](./Day17)
 
 ---
+
+### Day 18
+- 🎥 [Lecture Link Part1](https://drive.google.com/file/d/1SOFi9gr3QQwhh_9x-F3bzH7QPpUqgcJb/view?usp=drive_link)  
+- 🎥 [Lecture Link Part2](https://drive.google.com/file/d/17e_a7Tt0eeYQ7tSOmoXrLgyqJa63V2l3/view?usp=drive_link)  
+- 📚 [Materials](https://drive.google.com/drive/folders/1mM0xm6PrdW5xbd2hYXex-hu7JeIbRmue?usp=sharing)  
+- 💻 [Solutions – Day18](./Day18)
+
+---
+
+### Day 19
+- 🎥 [Lecture Link Part1](https://drive.google.com/file/d/1C_YdVYEhwNWDa2XRZwsDK-Rpkd97EkzF/view?usp=drive_link)  
+- 🎥 [Lecture Link Part2](https://drive.google.com/file/d/1axiLt8vfD39R_mG5HowVA3tSuObqbUw7/view?usp=drive_link)  
+- 📚 [Materials](https://drive.google.com/drive/folders/1wlSy2fMXplRjr1hJ0GbGERcT_vcEQc3b?usp=drive_link)  
+- 💻 [Solutions – Day19](./Day19)
+
+---
+
+## ❤️ Final Note
+
+This was honestly one of the **closest and most valuable courses to my heart**.
+Big thanks to everyone who shared knowledge with me 🙏.
+
+In this repo you’ll find:
+
+* ✅ Solutions for all assignments
+* 🎥 All lectures and materials for the whole month (organized above in the README)
+
+If you found this project helpful, please consider giving it a ⭐.
+That way, it’ll stay saved in your stars and also reach more people who might benefit from it.
